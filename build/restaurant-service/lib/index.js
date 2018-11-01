@@ -46,7 +46,7 @@ class RestaurantService {
     };
 
     this.deleteRestaurant = async uuid => {
-      await _axios2.default.delete(`http://${_config2.default.API_HOST}/api/${uuid}`);
+      await _axios2.default.delete(`https://${_config2.default.API_HOST}/api/${uuid}`);
     };
 
     this.getRestaurantLocationByCords = async (lat, lng) => {
