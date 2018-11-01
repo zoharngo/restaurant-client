@@ -11,7 +11,7 @@
     "test": "jest --watch",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "NODE_ENV=production NODE_PATH=./build npm build/server.js"
+    "start-prod": "node build/server.js"
   },
   "engines": {
     "node": "8.10.0"
