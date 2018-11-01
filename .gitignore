@@ -63,6 +63,6 @@ typings/
 .vcode
 .csv
 
-restaurant-client/public/
-restaurant-client/public/
-restaurant-client/build/
+public/vendor.js
+public/app.js
+build/
