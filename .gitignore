@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+.vcode
+.csv
+
+restaurant-client/public/
+restaurant-client/public/
+restaurant-client/build/
