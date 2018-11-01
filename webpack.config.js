@@ -4,7 +4,6 @@ const webpack = require('webpack');
 module.exports = {
   resolve:{
     modules: [
-      path.resolve('./build'),
       path.resolve('./lib'),
       path.resolve('./node_modules')
     ]
