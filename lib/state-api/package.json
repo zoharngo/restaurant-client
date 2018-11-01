@@ -1,0 +1,19 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoharngo/state-api.git"
+  },
+  "author": "Zohar Nyego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoharngo/state-api/issues"
+  },
+  "homepage": "https://github.com/zoharngo/state-api#readme"
+}
