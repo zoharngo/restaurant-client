@@ -19,6 +19,6 @@ app.get('/*', (req, res) => {
   res.render('index');
 });
 
-app.listen(_config2.default.PORT, 'localhost', () => {
+app.listen(_config2.default.PORT, () => {
   console.info(`Running on ${_config2.default.PORT}...`);
 });
