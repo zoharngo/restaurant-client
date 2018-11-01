@@ -11,7 +11,7 @@
     "test": "jest --watch",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "node build/server.js"
+    "start-prod": "pm2 start build/server.js -i max --name appProd"
   },
   "engines": {
     "node": "8.10.0"
