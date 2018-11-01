@@ -63,6 +63,3 @@ typings/
 .vcode
 .csv
 
-public/vendor.js
-public/app.js
-
