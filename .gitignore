@@ -66,3 +66,5 @@ typings/
 public/vendor.js
 public/app.js
 build/
+
+appDev
