@@ -1,0 +1,19 @@
+{
+  "name": "readers",
+  "version": "1.0.0",
+  "description": "CSV file reader",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoharngo/readers.git"
+  },
+  "author": "ZOHAR NYEGO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoharngo/readers/issues"
+  },
+  "homepage": "https://github.com/zoharngo/readers#readme"
+}

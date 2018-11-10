@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-service",
+  "version": "1.0.0",
+  "description": "Restaurant Service",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoharngo/restaurant-service.git"
+  },
+  "author": "ZOHAR NYEGO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoharngo/restaurant-service/issues"
+  },
+  "homepage": "https://github.com/zoharngo/restaurant-service#readme"
+}
