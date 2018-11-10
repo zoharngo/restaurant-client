@@ -9,7 +9,14 @@ module.exports = {
     ]
   },
   entry:{
-    vendor: ['babel-polyfill','react','react-dom','axios'],
+    vendor: [
+      'babel-polyfill',
+      'react',
+      'react-dom',
+      'axios',
+      'react-router-dom',
+      'react-spinners',
+      'prop-types'],
     app: ['./lib/renderers/dom.js']
   },
   output: {
