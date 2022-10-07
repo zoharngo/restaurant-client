@@ -11,7 +11,9 @@
     "test": "jest --watch",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files",
-    "start-prod": "node build/server.js"
+    "start-prod": "node build/server.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "8.10.0"
@@ -53,20 +55,22 @@
     "webpack": "^2.7.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.3",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "ejs": "^2.5.6",
+    "ejs": "^3.1.7",
     "express": "^4.15.2",
-    "pm2": "^3.2.2",
+    "pm2": "^4.4.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-router-dom": "^4.3.1",
-    "react-spinners": "^0.4.7"
-  }
+    "react-spinners": "^0.4.7",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
